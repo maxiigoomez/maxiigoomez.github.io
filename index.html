@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#sobreMi">Sobre mí</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="contenido">
+    <h1 class="titulo">Bienvenido a mi Portfolio</h1>
+    <h3 id="sobreMi" class="titulo">Sobre Mí</h3>
+    <p>Mi nombre es Maximiliano Gomez, tengo 30 años, me gusta entrenar y aprender sobre programación.</p>
+
+    <h3 id="contacto" class="titulo">Habilidades</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Php</li>
+        <li>Java</li>
+        <li>SQL</li>
+        </ul>
+
+    <h3 id="proyectos" class="titulo">Proyectos Destacados</h3>
+    <p>Proximamente estaré subiendo mis proyectos destacados....</p>
+
+
+    <h3 id="contacto" class="titulo">Contacto</h3>
+    <p>Si deseas contactarme, por favor completa el siguiente formulario:</p>
+    <form action="action.js" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit" class="boton">Enviar</button>
+
+    </form>
+    <footer id="pie">
+        <p>© 2025 Maximiliano Gomez. Todos los derechos reservados.</p>
+    </footer>
+</div>
+    
+</body>
+</html>
